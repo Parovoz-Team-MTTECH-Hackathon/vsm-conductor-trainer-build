@@ -8,5 +8,5 @@ git clone https://github.com/Parovoz-Team-MTTECH-Hackathon/vsm-conductor-trainer
 xcopy dists\backend .\ /E /H /C /I /Y
 mkdir static
 xcopy dists\frontend\static static /E /H /C /I /Y
-curl -o app.db https://github.com/Parovoz-Team-MTTECH-Hackathon/vsm-conductor-trainer-backend/releases/download/SDB-1/synthetic_app.db
+curl -L -o app.db https://github.com/Parovoz-Team-MTTECH-Hackathon/vsm-conductor-trainer-backend/releases/download/SDB-1/synthetic_app.db
 uv run uvicorn app.main:application --reload --port 80 --host 127.0.0.1
