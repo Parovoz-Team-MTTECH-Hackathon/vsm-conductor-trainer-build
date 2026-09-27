@@ -5,6 +5,7 @@ vsm-conductor-trainer-build / Обучающее приложение для п�
 1. Убедиться в наличии скачанных инструментов: `git`, `python`, `uv`
 2. Выполнить клонирование данного репозитория
 3. Запустить `start.bat`
+4. [Будет развёрнут локальный (127.0.0.1) сайт](http://127.0.0.1:80)
 
 Ручное развёртывание:
 1. Клонировать все организационные репозитории ( [Backend](https://github.com/Parovoz-Team-MTTECH-Hackathon/vsm-conductor-trainer-backend.git) [Frontend](https://github.com/Parovoz-Team-MTTECH-Hackathon/vsm-conductor-trainer-frontend.git) [Docs](https://github.com/Parovoz-Team-MTTECH-Hackathon/vsm-conductor-trainer-docs.git) )
